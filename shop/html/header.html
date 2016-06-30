@@ -1,0 +1,59 @@
+<div class="header">
+	<a class="nav-left-top" href="javascript:void(0)">全部商品分类<span>&gt;</span></a>
+	<div class="logo">
+
+	</div>
+	<div class="search">
+		<ul class="ul-search">
+			<li><a href="javascript:void(0)">宝贝</a><a href="javascript:void(0)">店铺</a></li>
+		</ul>
+		<form class="form-search">
+			<input list="SearchList" type="text" value="请输入关键词" />
+			<datalist id="SearchList" onlayoutcomplete>
+				<option value="食品生鲜"></option>
+				<option value="酒水"></option>
+				<option value="白酒水"></option>
+				<option value="啤酒水"></option>
+				<option value="服装服饰"></option>
+				<option value="母婴那份"></option>
+				<option value="手机数码"></option>
+				<option value="家用电器"></option>
+				<option value="家居日用"></option>
+				<option value="个护化妆"></option>
+				<option value="女装馆"></option>
+				<option value="灯饰"></option>
+				<option value="私房菜"></option>
+				<option value="丛台酒"></option>
+				<option value="非凡旅游"></option>
+				<option value="家居日用"></option>
+				<option value="家具"></option>
+				<option value="三星S6"></option>
+				<option value="苹果"></option>
+			</datalist>
+			<button>搜索</button>
+		</form>
+		<ul class="ul-menu">
+			<li>
+				<a href="javascript:void(0)">灯饰</a>
+				<a href="javascript:void(0)">私房菜</a>
+				<a href="javascript:void(0)">丛台酒</a>
+				<a href="javascript:void(0)">非凡旅游</a>
+				<a href="javascript:void(0)">家具</a>
+				<a href="javascript:void(0)">三星S6</a>
+				<a href="javascript:void(0)">苹果</a>
+			</li>
+		</ul>
+	</div>
+	<div class="safe">
+
+	</div>
+</div>
+<script type="text/javascript">
+	$('.ul-search>li>a').eq(0).addClass('a-bg');
+		$('.ul-search>li>a').click(function(){
+			var _index=$(this).index();
+			$('.ul-search>li>a').eq(_index).addClass('a-bg').siblings().removeClass('a-bg');
+		});
+</script>
+
+</html>

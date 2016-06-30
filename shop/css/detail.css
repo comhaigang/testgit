@@ -1,0 +1,46 @@
+@charset "utf-8";
+#detailFooter {
+	height: 340px;
+	background: #F9F9F9;
+}
+#detailFooter-top {
+	height: 240px;
+}
+#detailFooter-btm {
+	height: 100px;
+}
+#detailContent {
+	width: 1210px;
+	min-height: 600px;
+	height: auto!important;
+	height: 600px;
+	margin: 0 auto;
+	border: none;
+	background: violet;
+}
+#detailContent:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+/*详情页顶部*/
+#dCtTop{
+	width: 1210px;
+	height: 830px;
+	background: #55A0FF;
+}
+/*详情页底部*/
+#dCtBtm{
+	width: 1210px;
+	height: 2371px;
+	background: lavender;
+}
+#dCtTop>.detailCode{
+	width: 1210px;
+	height: 39px;
+	background:red;
+	float: left;
+}
